@@ -1,0 +1,6 @@
+name = input('Digite seu nome:')
+name = name.strip()
+nomeDividido = name.split()
+qtdNomes = len(nomeDividido)
+print('Primeiro Nome:{}'.format(nomeDividido[0]))
+print('Último Nome:{}'.format(nomeDividido[qtdNomes - 1]))

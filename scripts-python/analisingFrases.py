@@ -1,0 +1,6 @@
+frase = input('Digite sua frase:')
+frase = frase.strip()
+frase = frase.upper()
+print('Existem {} letras A nessa frase'.format(frase.count('A')))
+print('A letra A aparece primeiro na posição {}'.format(frase.find('A')))
+print('A letra A aparece porúltimo na posição {}'.format(frase.rfind('A')))
